@@ -8,6 +8,14 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 echo "\nInstalling...";
 
+echo "\nDATABASE_URL";
+echo "\n================================";
+print_r(parse_url(getenv('DATABASE_URL')));
+
+echo "\nJAWSDB_MARIA_URL";
+echo "\n================================";
+print_r(parse_url(getenv('JAWSDB_MARIA_URL')));
+
 $url = parse_url(getenv('DATABASE_URL') ?? getenv('JAWSDB_MARIA_URL'));
 
 if (!$url) {
