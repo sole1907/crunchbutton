@@ -15,16 +15,12 @@ echo "\nInstalling...";
 // 	$url = getenv('JAWSDB_MARIA_URL');
 // }
 
-$url = getenv('JAWSDB_MARIA_URL');
+$url = parse_url(getenv('JAWSDB_MARIA_URL'));
 
 if (!$url) {
 	echo "\nNo DATABASE_URL or JAWSDB_MARIA_URL";
 	exit(0);
 }
-
-echo "\nDATABASE_URL or JAWSDB_MARIA_URL";
-echo "\n================================";
-print_r($url);
 
 $type = $url['scheme'] == 'postgres' ? 'pgsql' : 'mysql';
 $options = null;
