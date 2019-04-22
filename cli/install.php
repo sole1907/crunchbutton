@@ -14,6 +14,7 @@ if (!$url) {
 	echo "\nNo DATABASE_URL or JAWSDB_MARIA_URL";
 	exit(0);
 }
+echo "DATABASE_URL or JAWSDB_MARIA_URL : " . $url;
 $type = $url['scheme'] == 'postgres' ? 'pgsql' : 'mysql';
 $options = null;
 
