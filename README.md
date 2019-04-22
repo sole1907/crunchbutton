@@ -21,11 +21,11 @@ For detailed info check out [the wiki](https://github.com/crunchbutton/crunchbut
 
 Deploy cockpit on heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/crunchbutton/crunchbutton&env[THEME]=cockpit2&env[DATABASE_URL]=null&env[USE_ENCRYPTION_KEY]=true&env[ADMIN_LOGIN]=admin&env[ADMIN_PASSWORD]=password&env[ADMIN_NAME]=Super%20Admin)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sole1907/crunchbutton&env[THEME]=cockpit2&env[DATABASE_URL]=null&env[USE_ENCRYPTION_KEY]=true&env[ADMIN_LOGIN]=admin&env[ADMIN_PASSWORD]=password&env[ADMIN_NAME]=Super%20Admin)
 
 Deploy crunchbutton on heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/crunchbutton/crunchbutton&env[THEME]=seven&env[DATABASE_URL]=null&env[USE_ENCRYPTION_KEY]=true&env[ADMIN_LOGIN]=admin&env[ADMIN_PASSWORD]=password&env[ADMIN_NAME]=Super%20Admin)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sole1907/crunchbutton&env[THEME]=seven&env[DATABASE_URL]=null&env[USE_ENCRYPTION_KEY]=true&env[ADMIN_LOGIN]=admin&env[ADMIN_PASSWORD]=password&env[ADMIN_NAME]=Super%20Admin)
 
 ---
 
