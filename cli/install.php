@@ -10,7 +10,8 @@ echo "\nInstalling...";
 
 $url = parse_url(getenv('DATABASE_URL'));
 
-if (!url || !$url['path']) {
+if (!$url || !$url['path']) {
+	echo "\nNo DATABASE_URL, trying to get JAWSDB_MARIA_URL";
 	$url = getenv('JAWSDB_MARIA_URL');
 }
 
